@@ -1,0 +1,49 @@
+-------varible 
+
+int numero;
+string nombre="Ramon";
+
+_-------imprimir en consola
+cout << 'a' << endl;
+
+
+-----body o main principal
+/* "Hola mundo" escrito en C++ */
+#include "iostream"
+using namespace std;
+int main()
+{
+     
+     return 0;
+}
+
+------condiconal if 
+if(condición a evaluar) //Por ejemplo X <= 10
+{
+        ....
+        ....
+    Bloque de Instrucciones si se cumple la condición....
+        ....
+        ....
+}
+
+-----comentarios 
+//comentario 
+
+
+
+----bucle for 
+
+for(int i = valor inicial; i <= valor final; i = i + paso)
+{
+        ....
+        ....
+    Bloque de Instrucciones....
+        ....
+        ....
+}
+
+for(int i=50;i<=100;i+=2)
+{//Notemos que escribir i+=2 es similar a escribir i = i + 2
+    cout << i << endl;
+}

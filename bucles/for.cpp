@@ -4,9 +4,6 @@ using namespace std;
 int main (){
 
 
-
-    
-
     for ( int edad ; edad < 18; edad = edad ){
 
         cout  << "introduce tu edad "  << endl;

@@ -20,7 +20,7 @@ int main()
 
     cout << "el resultado son: " << resultado << endl;
 
-    cout << "este es otro texto" << endl;
+    cout << "este es otro texto agnadiendo" << endl;
 
     cout << numerootro;
 

@@ -62,7 +62,7 @@ void Banco::CondicionMenu(){ //elijiendo del menu
 	}else if(opsion == 5){
 		cout << "--------------VER ESTADO DE CUENTA--------------" << endl;
 
-	}else if(opsion == 6){
+	}else if(opsion == 6){	
 		cout << "--------------HISTORIAL DE TRANSACCIONES--------------" << endl;
 	}else if(opsion == 7){
 		cout << "--------------REGISTRAR CUENTA--------------" << endl;
@@ -78,7 +78,7 @@ void Banco::CondicionMenu(){ //elijiendo del menu
 			cout << "NNOMBRE DEL TITULAR: ";
 			cin >> nombre_titular;
 
-			cout << "INGRESE EL SALDO INICIAL: ";
+			cout << "INGRESE EL SALDO INICIAL EN LEMPIRAS: ";
 			cin >> saldo_inicial;
 
 			CrearCuenta(numero_cuenta, nombre_titular, saldo_inicial);

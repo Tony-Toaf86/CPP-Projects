@@ -9,15 +9,14 @@ int main(){
 
 	cout << "hola mundo" << endl;
 
-	/*
+		
 	while(true){
 		banco.OpsionesMenu();
 		banco.CondicionMenu();
 
 	}
-		*/
+	
 
-	//banco.CrearCuenta(1001, "Tony", 500); //probando crear cuenta
 
 
 	return 0;

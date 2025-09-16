@@ -22,8 +22,7 @@ public:
 		string nombre_titular;
 		   int saldo_inicial;
 		
-		
-		
+	
 		//metodos 
 		int OpsionesMenu(); //viendo el menu 
 		void CondicionMenu(); //hace algo con el menu 
